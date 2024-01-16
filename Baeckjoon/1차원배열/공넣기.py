@@ -24,7 +24,7 @@ n,m = map(int,input().split())
 arr = [0]*n
 
 for a in range(m):
-    i,j,k = map(int,input().split()) #1 2 3
-    for b in range(i,j+1): # 1 3 ->1 2
-        arr[b-1] = k #
-print(*arr)
+    i,j,k = map(int,input().split())    # 1 2 3
+    for b in range(i,j+1):              # 1 3 ->1 2
+        arr[b-1] = k                    
+print(*arr)                             # * => list한번에 출력 괄호없앰
