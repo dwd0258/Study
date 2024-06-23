@@ -25,6 +25,7 @@ arr = [-1]*26
 
 for i in range (len(s)):
     if s[i] 
+    //
     
 
 print(arr)
