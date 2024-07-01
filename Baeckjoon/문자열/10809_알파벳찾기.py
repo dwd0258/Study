@@ -20,10 +20,11 @@ baekjoon
 import sys
 input = sys.stdin.readline
 
-s = input()
+s = input().rstrip() # rstrip 줄바꿈 제거
 arr = [-1]*26
 
-# for i in range (len(s)):
-#     if s[i] 
-
-print(arr)
+for i in range(len(s)):
+    if arr[ord(s[i]) - 97] == -1:
+       arr[ord(s[i]) - 97] = i
+    # print(ord(s[i]), s[i], i)
+print(*arr)
