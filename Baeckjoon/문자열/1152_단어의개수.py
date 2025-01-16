@@ -21,3 +21,11 @@ The last character is a blank
 예제 출력 3 
 6
 """
+
+import sys
+input = sys.stdin.readline
+
+s = input().strip()
+
+print(len(s.split(' ')))
+
