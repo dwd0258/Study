@@ -27,5 +27,5 @@ input = sys.stdin.readline
 
 s = input().strip()
 
-print(len(s.split(' ')))
+print(len(s.split()))
 
